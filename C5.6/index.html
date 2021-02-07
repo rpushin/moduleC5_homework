@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <form class="pic_form" action="#" method="GET">
+      <label for="width">Ширина: </label
+      ><input
+        name="width"
+        type="number"
+        id="width"
+        placeholder="100-300"
+        required
+      /><br />
+      <label for="height">Высота: </label
+      ><input
+        name="height"
+        type="number"
+        id="height"
+        placeholder="100-300"
+        required
+      /><br />
+      <button id="getpics" type="button">Получить</button>
+    </form>
+    <div id="output"></div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

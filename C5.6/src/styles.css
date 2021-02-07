@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+label {
+  margin: 5px;
+  display: inline-block;
+  width: 140px;
+}
+button {
+  margin: 5px;
+  display: inline-block;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+}
